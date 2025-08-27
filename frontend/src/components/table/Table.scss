@@ -1,0 +1,52 @@
+.parent {
+    max-height: 300px;
+    overflow-y: auto;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+.table {
+    border:1px solid orangered;
+    border-collapse: separate;
+    border-spacing:0 ;
+    width:100%;
+    height: auto;
+    table-layout: fixed;
+
+    th{
+        background-color: #FF4300;
+        color:white;
+        padding: 10px;
+        border: 1px solid rgb(221, 221, 221);
+    }
+
+    th:nth-child(1) { width: 15%; } /* Naziv */
+    th:nth-child(2) { width: 20%; } /* Email */
+    th:nth-child(3) { width: 15%; } /* Broj telefona */
+    th:nth-child(4) { width: 10%; } /* Pravno lice */
+    th:nth-child(5) { width: 15%; } /* Datum kreiranja */
+    th:nth-child(6) { width: 10%; } /* Aktivan */
+    th:nth-child(7) { width: 15%; } /* Deaktiviraj */
+    
+    td{
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid rgb(221, 221, 221);
+        word-wrap: break-word;
+    }
+
+    .deaktiviraj-dugme {
+        padding: 8px 12px;
+        background-color: #29FF00;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s ease-in-out;
+
+        &:hover {
+            background-color: #c82333;
+        }
+    }
+}
