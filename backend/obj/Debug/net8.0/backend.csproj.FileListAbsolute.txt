@@ -127,3 +127,6 @@
 /home/kole/Documents/JORIS Vezbanje/FONContacts/backend/bin/Debug/net8.0/runtimes/win-x64/native/e_sqlite3.dll
 /home/kole/Documents/JORIS Vezbanje/FONContacts/backend/bin/Debug/net8.0/runtimes/win-x86/native/e_sqlite3.dll
 /home/kole/Documents/JORIS Vezbanje/FONContacts/backend/obj/Debug/net8.0/backend.sourcelink.json
+C:\Users\X\test-primer-JORIS\backend\obj\Debug\net8.0\backend.dll
+C:\Users\X\test-primer-JORIS\backend\obj\Debug\net8.0\refint\backend.dll
+C:\Users\X\test-primer-JORIS\backend\obj\Debug\net8.0\backend.pdb
