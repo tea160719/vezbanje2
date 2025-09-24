@@ -26,4 +26,5 @@ public class Klijent
     public DateTime? DatumDeaktivacije { get; set; }
 
     public int godine { get; set }
+    public int broj { get; set; }
 }
